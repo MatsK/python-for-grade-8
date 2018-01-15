@@ -5,6 +5,7 @@ max_number = 100
 secret_number = randint(1, max_number)
 guesses = 0
 print "Guess the number between 1 and %s" % max_number
+
 for i in range(100):
     guesses = guesses + 1
     guess = raw_input("Guess: ")

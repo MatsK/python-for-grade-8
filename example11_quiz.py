@@ -6,13 +6,13 @@ questions = [
      "a": "Stockholm",
      "b": "Oslo",
      "c": "Göteborg",
-     "correct": "a"},
-    
+     "correct": "a, Stockholm."},
+
     {"question": "What is 2 + 2?",
      "a": "3",
      "b": "5",
      "c": "4",
-     "correct": "c"},
+     "correct": "c, 4."},
 ]        
     
 for question in questions:
@@ -28,4 +28,3 @@ for question in questions:
         print "Wrong"
     sleep(2)
     print
-

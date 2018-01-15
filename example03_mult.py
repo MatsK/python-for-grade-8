@@ -1,6 +1,6 @@
 import time
-print "Multiply"
 
+print "Multiply"
 
 def mult(x, y):
     print "Hmmm..."
@@ -10,8 +10,13 @@ def mult(x, y):
     return result
 
 a = raw_input("First number: ")
+
 a = int(a)
+
 b = raw_input("Second number: ")
+
 b = int(b)
+
 result = mult(a, b)
+
 print "Result: %s" % result

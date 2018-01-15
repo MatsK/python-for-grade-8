@@ -21,4 +21,3 @@ if 'm' in letter_list:
     print 'm is in the list'
 else:
     print 'm is not in the list'
-

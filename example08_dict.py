@@ -20,7 +20,6 @@ print a.get(16)
 # The whole dict {16: 'A text', 'abc': 5}
 print a
 
-
 # You can add content when creating the dict
 b = {"ccc": "f", 16: 165}
 

@@ -8,7 +8,6 @@ MAX = 100
 MAX_GUESSES = 8
 secret = randint(1, MAX)
 
-
 def ranking(max_number, guesses_used):
     if max_number <= 10:
         if guesses_used <= 2:
@@ -26,11 +25,14 @@ def ranking(max_number, guesses_used):
             return "Bronze"
 
 name = raw_input("What is your name? ")
+
 print "Hello %s" % name
 print
 print "Guess the number between 1 and %s" % MAX
 print
+
 sleep(3)
+
 begin_time = datetime.now()
 print "Start time: %s" % begin_time
 
